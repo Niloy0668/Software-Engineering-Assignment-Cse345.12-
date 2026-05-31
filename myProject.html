@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        body {
+            background-color: aliceblue;
+            position: relative;
+        }
+
+        .social-btn {
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            transition: 0.3s;
+        }
+
+        .social-btn:hover {
+            border-color: darkgoldenrod;
+            color: darkgoldenrod;
+        }
+
+        .social-btn i {
+            font-size: 24px;
+        }
+
+        .circle-btn {
+            width: 60px;
+            height: 60px;
+        }
+
+        .myStyle {
+            transition: 0.3s;
+        }
+
+        .myStyle:hover {
+            border-color: darkgoldenrod !important;
+            color: darkgoldenrod;
+        }
+
+        .myStyle:hover i {
+            color: darkgoldenrod;
+        }
+    </style>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <div>
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark pb-0 ">
+
+            <a href="#" class="navbar-brand">
+                <img src="images/Education logo.png" alt="logo" style="width: 120px;">
+            </a>
+
+
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active me-2" href="#section-1">Home</a></li>
+                    <li class="nav-item"><a class="nav-link me-2" href="#section-2">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link me-2" href="#section-3">About</a></li>
+                    <li class="nav-item"><a class="nav-link me-2" href="#section-4">Contact</a></li>
+                    <button class="btn btn-outline-light rounded-pill px-4 py-2 me-2">Sign up</button>
+                    <button class="btn btn-dark rounded-pill px-4 py-2 me-2">Login</button>
+                </ul>
+            </div>
+
+
+        </nav>
+    </div>
+    <header>
+        <div class="other-section">
+            <div class="title text-center mb-5">
+                <h3 class="fw-bolder">Bright Future Center</h3>
+            </div>
+    </header>
+    <main>
+        <div id="section-1" class="Hero-section">
+            <div class="row m-auto">
+                <div class="col-lg-6">
+                    <h1 class="fw-bolder text-center">Learn with <span class="text-info">joy,</span> Grow <br>with <span
+                            class="text-info">confidance</span></h1>
+                    <p class="pl-2">Are you ready to drive into the exciting world of technolgy and unlock new career
+                        opportunities.We have a professional group of experts traniners to help you to grow your
+                        skill.That will take you value next level.</p>
+                    <button class="btn btn-success rounded-pill  text-center">Enroll Now</button>
+                </div>
+                <div class="col-lg-6">
+                    <img  src="images/Banner.jpeg" alt="banner" style="width: 500; height: 500px;">
+                </div>
+            </div>
+        </div>
+        <div id="section-2" class="course-section">
+            <div class="title text-center  my-5">
+                <h3 class="fw-bolder">Courses</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img class="card-image-top" src="images/BeD course.png" alt="beginner course">
+                                <div class="card-body">
+                                    <h4 class="card-title">Beginner course</h4>
+                                    <p>Course Duration: 6 month</p>
+                                    <p class="card-text">Fee: 10,000tk</p>
+                                    <p class="card-text">This Course is a beginner friendly course. In this
+                                        course we will start from zero to advance level</p>
+                                    <a class="card-link stretched-link" href="#">Visit here</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img class="card-image-top" src="images/Inter logo.png" alt="Intermediate course">
+                                <div class="card-body">
+                                    <h4 class="card-title">Intermediate Course</h4>
+                                    <p>Course Duration: 1 year </p>
+                                    <p class="card-text">Fee: 20,000tk</p>
+                                    <p class="card-text">This Course is a intermediate course. In this
+                                        course we will learn some intermediate things. </p>
+                                    <a class="card-link stretched-link" href="#">Visit here</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/ADD course.png" alt="beginner course">
+                                <div class="card-body">
+                                    <h4 class="card-title">Advance course</h4>
+                                    <p>Course Duration: 2 year</p>
+                                    <p class="card-text">Fee: 30,000tk</p>
+                                    <p class="card-text">This course is a advance course. In this
+                                        course we will learn about advance things. </p>
+                                    <a class="card-link stretched-link" href="#">Visit here</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="section-3" class="about-section bg-dark text-light my-5">
+            <div class="title text-center ">
+                <h3 class="text-light">About us</h3>
+                <p>Welcome to our learning platform, where education meets inspiration. We are dedicated to helping
+                    students build knowledge, skills, and confidence through quality learning experiences. Our goal is
+                    to make education simple, engaging, and accessible for everyone.
+                    We provide expert guidance, interactive classes, and a supportive environment to help learners
+                    achieve academic success and personal growth. Whether you are starting your journey or improving
+                    your skills, we are here to guide you every step of the way.
+                    Join us and learn with confidence, creativity, and joy.</p>
+            </div>
+        </div>
+  
+        <div id="section-4" class="Contact-section">
+            <div class="title text-center">
+              <h3>Contact info</h3>
+               <div class="bg-dark text-white p-4">
+
+                    <!-- Email -->
+                    <div class="d-flex align-item-center gap-3 mb-4">
+
+                        <div class="border border-light rounded-circle myStyle
+                           d-flex align-items-center justify-content-center" style="width:60px; height:60px;">
+                            <i class="bi bi-envelope-fill fs-4"></i>
+                        </div>
+
+                        <div>
+                            <h4 class="mb-1">Email</h4>
+                            <p class="mb-0">nroy@gmail.com</p>
+                        </div>
+
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="d-flex align-items-center gap-3 mb-4">
+
+                        <div class="border border-light rounded-circle myStyle
+                           d-flex align-items-center justify-content-center" style="width:60px; height:60px;">
+                            <i class="bi bi-telephone-fill fs-4"></i>
+                        </div>
+
+                        <div>
+                            <h4 class="mb-1">Phone</h4>
+                            <p class="mb-0">+8801930040764</p>
+                        </div>
+
+                    </div>
+
+                    <!-- Address -->
+                    <div class="d-flex align-items-center gap-3">
+
+                        <div class="border border-light rounded-circle myStyle
+                           d-flex align-items-center justify-content-center" style="width:60px; height:60px;">
+                            <i class="bi bi-geo-alt-fill fs-4"></i>
+                        </div>
+
+                        <div>
+                            <h4 class="mb-1">Address</h4>
+                            <p class="mb-0">Famgate,Dhaka 1215.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>    
+            
+        
+        
+    </main>
+
+    <footer>
+        <div class="quick-links">
+            <div class="title text-center">
+                <h4 class="text-dark">Quick links</h4>
+                <div class="py-5 bg-dark">
+
+                    <div class="d-flex gap-4">
+
+                        <!-- Facebook Button -->
+                        <a href="https://www.facebook.com/nilaya.raya.246116/"
+                            class="btn social-btn rounded-pill px-4 py-3 d-flex align-items-center gap-3">
+
+                            <i class="bi bi-facebook"></i>
+                            <span class="fw-semibold">Facebook</span>
+
+                        </a>
+
+                        <!-- LinkedIn Button -->
+                        <a href="https://www.linkedin.com/in/niloy-roy-b4aa29411/" class="btn social-btn rounded-pill px-4 py-3
+        d-flex align-items-center gap-3">
+
+                            <i class="bi bi-linkedin"></i>
+                            <span class="fw-semibold">Linkdin</span>
+                        </a>
+
+                        <!-- WhatsApp Button -->
+                        <a href="https://wa.me/qr/CJNQPZKLKMUAM1" class="btn social-btn rounded-pill px-4 py-3
+                         d-flex align-items-center gap-3 ">
+
+                            <i class="bi bi-whatsapp fs-4"></i>
+                            <span class="fw-semibold">WhatsApp</span>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="bg-secondary mb-3">
+            <p class="text-center">copyright- Niloy roy | Fontend Devoloper</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
